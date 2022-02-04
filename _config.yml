@@ -1,0 +1,22 @@
+title: Bayrock
+description: "Inside a shallow mind."
+#logo: /assets/img/logo.png
+favicon: false
+#email: bayrock@example.com
+repository: bayrock/bayrock.github.io
+blank_title: true
+show_downloads: false
+#google_analytics: ""
+color-scheme: dark
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  #- jemoji
+
+sidebar:
+  - name: GitHub
+    icon: fa-brands fa-github
+    link: https://github.com/bayrock
+  - name: Blog
+    icon: fa-solid fa-pen
+    link: /blog
