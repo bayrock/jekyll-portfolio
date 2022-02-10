@@ -2,13 +2,21 @@
 layout: default
 ---
 
+{% if page.hero %}
+	<img src="{{page.hero}}">
+{% endif %}
+
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+{% if page.title %}
+	<h1>{{page.title}}</h1>
+{% else %}
+	<h1>Untitled</h1>
+{% endif %}
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
 {{content}}
 
-{% if page.tags %}
+{% if page.tags != empty %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}

@@ -1,9 +1,5 @@
 ---
-layout: default
+layout: blog
 ---
 
-## Bayrock::blog
-
-_Reserved_
-
-[back](./)
+## ::blog
