@@ -11,7 +11,7 @@ color-scheme: dark
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  #- jemoji
+  - jekyll-coffeescript
 
 sidebar:
   - name: GitHub
