@@ -152,6 +152,7 @@ kbd {
   overflow-x: hidden;
   overflow-y: scroll;
   -ms-overflow-style: -ms-autohiding-scrollbar; // IE10+
+  user-select: none;
 }
 
 // Disables the scrollbar in Firefox
@@ -207,12 +208,11 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
-
   .sidebar {
     padding: initial;
     display: initial;
     height: initial;
-    overflow: initial;    
+    overflow: initial;
   }
 
   footer {
