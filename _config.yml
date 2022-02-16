@@ -1,10 +1,9 @@
 author: Bayrock
 description: "Inside a shallow mind"
-logo: /assets/img/lain.gif
+avatar: /assets/img/lain.gif
 favicon: false
 #email: bayrock@example.com
 repository: bayrock/bayrock.github.io
-#blank_title: true
 show_downloads: false
 #google_analytics: ""
 color-scheme: auto
@@ -16,7 +15,27 @@ plugins:
 sidebar:
   - name: GitHub
     icon: fa-brands fa-github
-    link: https://github.com/bayrock
+    link:
+      href: https://github.com/bayrock
+      new-tab: true
+  - name: Portfolio
+    icon: fa-solid fa-mug-hot
+    link: 
+      href: /portfolio
   - name: Blog
     icon: fa-solid fa-pen
-    link: /blog
+    link: 
+      href: /blog
+
+portfolio:
+  - name: Devinity
+    homepage: https://devinity.org
+    description: Home of the classic Garry's Mod Flood gamemode and community
+  - name: Entropia Analyst
+    homepage: https://bayrock.github.io/Entropia-Analyst/
+    repo: bayrock/Entropia-Analyst
+    description: Web based visualization of Entropia Universe skill gains
+  - name: OSRS Tool Portal
+    homepage: https://devinity.org/osrs/portal.html
+    repo: bayrock/OSRS-Tools
+    description: Web based tools and calculators for Old School Runescape

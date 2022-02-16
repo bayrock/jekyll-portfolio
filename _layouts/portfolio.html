@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ "/assets/css/portfolio.css?v=" | append: site.github.build_revision | relative_url }}">
+
+{{content}}
+
+<ul>
+    {% for project in site.portfolio %}
+        <li><a href="{{ project.homepage | relative_url }}">{{project.name}}</a> ~ {{project.description}}</li>
+    {% endfor %}
+</ul>
+
+{% include back.html %}

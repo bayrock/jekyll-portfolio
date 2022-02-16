@@ -204,6 +204,8 @@ footer {
 }
 
 .sidebar-footer {
+  max-width: 125px;
+  word-wrap: break-word;
   flex-basis: content;
 }
 
