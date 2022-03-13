@@ -10,8 +10,7 @@
         }
     </style>
     {%- for platform in site.sidebar %}
-
-    <nobr><a class="{{ platform.name }}-link" href="{{ platform.link.href }}" {% if platform.link.new-tab %}target="_blank"{% endif %}><i class="{{ platform.icon }}"></i>&nbsp;{{ platform.name }}</a>
+        <nobr><a class="{{ platform.name }}-link" href="{{ platform.link.href }}" {% if platform.link.new-tab %}target="_blank"{% endif %}><i class="{{ platform.icon }}"></i>&nbsp;{{ platform.name }}</a>
     {%- unless forloop.last %}<span class="{{ platform.name }}-link" style="margin-left: 6px;"></span>{% endunless %}</nobr>
     {%- endfor %}
 </div>

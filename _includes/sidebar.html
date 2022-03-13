@@ -11,7 +11,7 @@
   </style>
   <ul class="link">
     {%- for platform in site.sidebar %}
-    <li class="{{ platform.name }}-link"><a href="{{ platform.link.href }}" {% if platform.link.new-tab %}target="_blank"{% endif %}><i class="{{ platform.icon }}"></i> {{ platform.name }}</a></li>
+      <li class="{{ platform.name }}-link"><a href="{{ platform.link.href }}" {% if platform.link.new-tab %}target="_blank"{% endif %}><i class="{{ platform.icon }}"></i> {{ platform.name }}</a></li>
     {%- endfor %}
   </ul>
 </div>
