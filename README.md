@@ -1,4 +1,4 @@
-# [bayrock.github.io](https://bayrock.github.io)
+# [bayrock.github.io](https://bayrock.github.io/jekyll-portfolio)
 
 ### Built with the following technologies:
 

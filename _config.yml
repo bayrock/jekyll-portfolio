@@ -21,11 +21,11 @@ sidebar:
   - name: Portfolio
     icon: fa-solid fa-mug-hot
     link: 
-      href: /portfolio
+      href: /jekyll-portfolio/portfolio
   - name: Blog
     icon: fa-solid fa-pen
     link: 
-      href: /blog
+      href: /jekyll-portfolio/blog
 
 portfolio:
   - name: Devinity
@@ -35,7 +35,7 @@ portfolio:
     homepage: https://bayrock.github.io/Entropia-Analyst/
     repo: bayrock/Entropia-Analyst
     description: Web based visualization of Entropia Universe skill gains
-  - name: OSRS Tool Portal
-    homepage: https://devinity.org/osrs/portal.html
+  - name: OSRS Gadget
+    homepage: https://bayrock.github.io/OSRS-Gadget/
     repo: bayrock/OSRS-Tools
     description: Web based tools and calculators for Old School Runescape
